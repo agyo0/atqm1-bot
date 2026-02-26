@@ -26,7 +26,7 @@ const reactions = [
 // ======================
 
 // ⭐ 特定ユーザー
-const specialUserId = "1392064446008004631";
+const specialUserId = "1378220422855921714";
 
 // ⭐ 朝メッセージ用
 const morningChannelId = "1435722035190960279";
@@ -116,4 +116,5 @@ client.on('messageCreate', message => {
 });
 
 client.login(process.env.TOKEN)
+
 
